@@ -1,4 +1,4 @@
-public class BonusScore extends GameScore{
+public class BonusScore implements GameScore{
     /* 
     *@pre Se inicia con 0 puntos  
     *@pos El puntaje minimo es 0 
@@ -7,6 +7,6 @@ public class BonusScore extends GameScore{
     *@throws ExeptionParametrosInvalidos deberia salir cuando se ingresan numeros o caracteres no permitidos 
     */
     public int calculateScore(int correctCount , int incorrectCount){
-        return 0
+        return 0;
     }
 }
