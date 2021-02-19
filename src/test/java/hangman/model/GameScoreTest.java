@@ -80,17 +80,17 @@ public class GameScoreTest{
         
     }
 
-    /*@Test 
+    @Test 
     public void OriginalScoreTest4(){
         try {
-            int score = new OriginalScore().calculateScore("k",0);
+            int score = new OriginalScore().calculateScore('k',0);
         }
         catch(Exception e){
             Assert.assertTrue(true);
         }
 
     }
-    */
+    
 
 
     @Test 
@@ -188,17 +188,17 @@ public class GameScoreTest{
         
     }
 
-    /*@Test 
+    @Test 
     public void BonusScoreTest3(){
         try {
-            int score = new BonusScore().calculateScore(l,m);
+            int score = new BonusScore().calculateScore('l','m');
         }
         catch(Exception e){
             Assert.assertTrue(true);
         }
 
     }
-    */
+    
 
     @Test 
     public void BonusScoreFrontera1(){
@@ -285,16 +285,16 @@ public class GameScoreTest{
         }
     }
 
-    /*@Test 
+    @Test 
     public void PowerScoreTest2(){
         try {
-            int score = new PowerScore().calculateScore(0,a);
+            int score = new PowerScore().calculateScore(0,'a');
         }
         catch(Exception e){
             Assert.assertTrue(true);
         }
     }
-    */
+    
 
     @Test 
     public void PowerScoreFrontera1(){

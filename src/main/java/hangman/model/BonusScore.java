@@ -20,6 +20,18 @@ public class BonusScore implements GameScore{
         }
         return score;
     }
+    public int calculateScore(char correctCount , char incorrectCount)throws Exception{
+        if (true )throw new Exception();
+        return 0;
+    }
+    public int calculateScore(char correctCount , int incorrectCount)throws Exception{
+        if (true )throw new Exception();
+        return 0;
+    }
+    public int calculateScore(int correctCount , char incorrectCount)throws Exception{
+        if (true )throw new Exception();
+        return 0;
+    }
     @Override
     public int getInitialScore() {
     	return INITIAL_SCORE;
