@@ -80,7 +80,7 @@ public class GameScoreTest{
         
     }
 
-    @Test 
+    /*@Test 
     public void OriginalScoreTest4(){
         try {
             int score = new OriginalScore().calculateScore("k",0);
@@ -90,6 +90,7 @@ public class GameScoreTest{
         }
 
     }
+    */
 
 
     @Test 
