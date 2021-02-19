@@ -2,6 +2,7 @@ package hangman.model;
 import hangman.model.*;
 import java.lang.Math;
 public class PowerScore implements GameScore{
+	public final int INITIAL_SCORE =0;
     /* 
     *@pre Se inicia con 0 puntos  
     *@pos El puntaje minimo es 0  y el maximo 500
@@ -21,5 +22,9 @@ public class PowerScore implements GameScore{
             score = 500;
         }
         return score;
+    }
+    @Override
+    public int getInitialScore() {
+    	return INITIAL_SCORE;
     }
 }

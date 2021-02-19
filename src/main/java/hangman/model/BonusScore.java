@@ -1,6 +1,8 @@
 package hangman.model;
 import hangman.model.*;
 public class BonusScore implements GameScore{
+	public final int INITIAL_SCORE =0;
+	
     /* 
     *@pre Se inicia con 0 puntos  
     *@pos El puntaje minimo es 0 
@@ -18,5 +20,8 @@ public class BonusScore implements GameScore{
         }
         return score;
     }
-
+    @Override
+    public int getInitialScore() {
+    	return INITIAL_SCORE;
+    }
 }

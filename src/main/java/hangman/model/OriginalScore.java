@@ -1,6 +1,7 @@
 package hangman.model;
 import hangman.model.*;
 public class OriginalScore implements GameScore{
+	public final int INITIAL_SCORE =100;
     /* 
     *@pre Se inicia con 100 puntos  
     *@pos El puntaje minimo es 0 ,100 menos conteo incorrecto por 10
@@ -17,5 +18,9 @@ public class OriginalScore implements GameScore{
             score = 0;
         }
         return score;
+    }
+    @Override
+    public int getInitialScore() {
+    	return INITIAL_SCORE;
     }
 }
